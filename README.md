@@ -1,4 +1,4 @@
-### Fedora i3wm dotfiles
+# Fedora i3wm dotfiles
 
 - i3
 - fastfetch
