@@ -1,5 +1,5 @@
 ### Fedora i3wm dotfiles
-<br>
+
 - i3
 - fastfetch
 - kitty
