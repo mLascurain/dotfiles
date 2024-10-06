@@ -4,12 +4,12 @@
 
 ![Terminal](https://github.com/user-attachments/assets/62b76b35-4d78-411a-acc8-acf9890f28b1)
 
-i3
-Fastfetch
-kitty
-picom
-polybar
-rofi
-wallpapers
-autotiling (for i3)
-scripts
+- i3
+- Fastfetch
+- kitty
+- picom
+- polybar
+- rofi
+- wallpapers
+- autotiling (for i3)
+- scripts
