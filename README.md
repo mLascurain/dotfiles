@@ -1,7 +1,7 @@
 ### Fedora i3wm dotfiles
-
+<br>
 - i3
-- Fastfetch
+- fastfetch
 - kitty
 - picom
 - polybar
