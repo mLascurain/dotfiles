@@ -20,6 +20,7 @@ exec --no-startup-id sleep 2; i3-msg "workspace 1; exec flatpak run com.discorda
 exec --no-startup-id sleep 9; i3-msg "workspace 2; exec google-chrome"
 exec --no-startup-id sleep 6; i3-msg "workspace 3; exec kitty"
 exec --no-startup-id blueman-applet
+exec --no-startup-id dunst
 exec_always --no-startup-id sleep 7; picom
 exec_always --no-startup-id /home/kiw/scripts/mouse-sens.sh
 exec_always --no-startup-id bash -c "sleep 1; xrandr --output HDMI-0 --off; xrandr --output DP-0 --mode 1920x1080 --rate 144 --primary"
