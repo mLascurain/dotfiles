@@ -6,6 +6,7 @@
 - picom
 - polybar
 - rofi
+- dunst
 - wallpapers
 - autotiling (for i3)
 - scripts
