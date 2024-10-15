@@ -7,6 +7,7 @@
 - polybar
 - rofi
 - dunst
+- tmux
 - wallpapers
 - autotiling (for i3)
 - scripts
