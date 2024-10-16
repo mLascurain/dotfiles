@@ -2,20 +2,28 @@ return {
 	"catppuccin/nvim",
 	--"EdenEast/nightfox.nvim",
 	--"rebelot/kanagawa.nvim",
+	--"navarasu/onedark.nvim",
 	priority = 1000,
 	config = function()
-		local transparent = false -- set to true if you would like to enable transparency
-
-		local bg = "#1e1e2e"
-		local bg_dark = "#191929"
-		local bg_highlight = "#143652"
-		local bg_search = "#0A64AC"
-		local bg_visual = "#275378"
-		local fg = "#CBE0F0"
-		local fg_dark = "#B4D0E9"
-		local fg_gutter = "#627E97"
-		local border = "#547998"
-
+		require("catppuccin").setup({
+			base = "#1e1e2e",
+			mantle = "#353b45",
+			surface0 = "#3e4451",
+			surface1 = "#545862",
+			surface2 = "#565c64",
+			text = "#cdd6f4",
+			--rosewater = "#b6bdca",
+			rosewater = "#baf997",
+			lavender = "#b4befe",
+			red = "#f38ba8",
+			peach = "#fab387",
+			yellow = "#f9e2af",
+			mauve = "#baf997",
+			teal = "#94e1d5",
+			blue = "#61afef",
+			green = "#a6e3a1",
+			flamingo = "#ffa5a2",
+		})
 		vim.cmd("colorscheme catppuccin")
 	end,
 }
