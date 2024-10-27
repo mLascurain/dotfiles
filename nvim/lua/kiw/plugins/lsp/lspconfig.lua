@@ -19,10 +19,7 @@ return {
 				local opts = { buffer = ev.buf, silent = true }
 
 				opts.desc = "Show LSP references"
-				keymap.set("n", "gD", "<cmd>Telescope lsp_references<CR>", opts) -- show definition, references
-
-				opts.desc = "Go to declaration"
-				keymap.set("n", "gd", vim.lsp.buf.declaration, opts) -- go to declaration
+				keymap.set("n", "gd", "<cmd>Telescope lsp_references<CR>", opts) -- show definition, references
 
 				opts.desc = "Show LSP type definitions"
 				keymap.set("n", "gt", "<cmd>Telescope lsp_type_definitions<CR>", opts) -- show lsp type definitions

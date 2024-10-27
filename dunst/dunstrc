@@ -23,7 +23,10 @@
     # Width of frame around window
     frame_width = 3
     # Color of frame around window
-    frame_color = "#baf997"
+    #frame_color = "#baf997"
+    frame_color = "#6c7096"
+    $dotenv->safeLoad();
+"
     # Sort messages by urgency
     sort = yes
     # Idle seconds
