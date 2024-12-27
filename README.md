@@ -8,7 +8,7 @@
 - rofi
 - dunst
 - tmux
-- wallpapers
+- wallpapers (feh)
 - autotiling (for i3)
 - scripts
 
